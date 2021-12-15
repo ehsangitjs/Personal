@@ -1,0 +1,16 @@
+@keyframes left {
+    from{
+        transform: translateX(-150%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes top {
+    from{
+        transform: translateY(-150%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

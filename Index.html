@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal ❓</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/anime.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside>
+            <nav>
+                <div class="first">
+                    <img src="images/Logo.png">
+                    <h2>Ehsan <span>Valizadeh</span></h2>
+                    <h3>Front End Developer</h3>
+                </div>
+                <div class="second">
+                    <h1>A Simple Sentence</h1>
+                    <h2 id="sentence"></h2>
+                </div>
+                <div class="thrid">
+                    <a href="https://www.instagram.com/ehsan200.7/" target="_blank"><img src="images/instagram.png"></a>
+                    <a href="https://github.com/ehsangitjs" target="_blank"><img src="images/github.png"></a>
+                </div>
+            </nav>
+        </aside>
+        <section>
+            <div class="post"></div>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+    <script type="module">
+        import NewPost from './js/module/NewPost.js';
+        NewPost(
+            "JavaScript",
+            "JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries."
+        )
+        NewPost(
+            "Python",
+            "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects."
+        )
+        NewPost(
+            "Kotlin",
+            "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise."
+        )
+        NewPost(
+            "Dart",
+            "Dart is a programming language designed for client development, such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications. Dart is an object-oriented, class-based, garbage-collected language with C-style syntax."
+        )
+    </script>
+</body>
+</html>

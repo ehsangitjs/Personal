@@ -1,0 +1,24 @@
+@media (max-width:1200px) {
+    main {
+        grid-template-rows: 1fr;
+        grid-template-columns: none;
+    }
+    aside {
+        position: static;
+    }
+    .PostDiv{
+        width: 80%;
+        margin: 20px;
+    }
+    .PostDiv p{
+        text-align: center;
+    }
+    section{
+        animation: left 1s ease-in-out;
+    }
+}
+@media (max-height:700px) {
+    .first img{
+        width: 200px;
+    }
+}
