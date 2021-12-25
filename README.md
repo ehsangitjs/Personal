@@ -1,4 +1,4 @@
 # Personal
 _This is my personal blog_
 
-See Here : https://ehsangitjs.github.io/Personal/
+See Here : https://personal-blog-ehsan-git-js.netlify.app/
